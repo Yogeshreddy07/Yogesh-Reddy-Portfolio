@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Yogesh Reddy</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <a href="#"><span class="logo nav__logo">Y</span> Yogesh Reddy</a>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Tech Stack</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#contact" class="btn">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn__large">Contact</a>
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="assets/about.jpg" alt="Yogesh Reddy" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1>Yogesh Reddy<br /><span class="typed-role"></span><span class="cursor"></span></h1>
+        </div>
+        <p class="section__description">
+          I'm a B.Tech IT student at Alliance University, passionate about software engineering, AI, and cloud technologies. I build full-stack web apps, real-time analytics pipelines, and AI-driven platforms.
+        </p>
+        <div class="header__btn">
+          <button class="btn">Hire Me Now</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/bg.png" alt="bg" class="about__bg-1" />
+        <img src="assets/bg.png" alt="bg" class="about__bg-2" />
+        <img src="assets/about1.jpg" alt="Yogesh" class="about__img" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Bit About Me</h2>
+        <p class="section__description">
+          I'm a developer and tech enthusiast who blends code with creativity. From building biometric voting systems to deploying data pipelines in Azure, I love solving real-world problems. I thrive in full-stack development, data engineering, and automation using Python, Django, Spark, and more.
+        </p>
+        <div class="about__btn">
+          <a href="Yogesh_Reddy_Resume.pdf" class="btn">Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <h2 class="section__header">Tech Stack & Services</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-code-s-slash-line"></i></span>
+          <h4>Web Development</h4>
+          <p>Building responsive websites using HTML, CSS, JavaScript, Django, Flask.</p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-server-line"></i></span>
+          <h4>Cloud & DevOps</h4>
+          <p>CI/CD with Jenkins, Docker, EC2, and Azure deployments.</p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-bar-chart-2-fill"></i></span>
+          <h4>Data Analytics</h4>
+          <p>Data pipelines using Spark, Azure Data Factory, and visualization with Power BI.</p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-brain-line"></i></span>
+          <h4>AI Integration</h4>
+          <p>Integrating LLMs like DeepSeekAI for personalized learning experiences.</p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-shield-user-line"></i></span>
+          <h4>Secure Systems</h4>
+          <p>Facial recognition & biometric voting using Python, OpenCV, SQLite.</p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-macbook-line"></i></span>
+          <h4>Full Stack Projects</h4>
+          <p>Combining frontend + backend + database with user-first interfaces.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container portfolio__container" id="portfolio">
+      <h2 class="section__header">My Projects</h2>
+      <p class="project-description">
+        These projects highlight my skills in solving complex problems using AI, cloud computing, and web development — built with precision and purpose. Each solution reflects a deep understanding of modern technologies, a focus on user experience, and a commitment to delivering high-quality, scalable applications.
+      </p>
+      <br>
+      <div class="project-links">
+        <span>Curious About My Work? </span>
+        <a href="https://github.com/Yogeshreddy07" class="btn btn-github">
+          <i class="ri-github-fill"></i> Visit My GitHub Profile
+        </a>
+      </div>
+      <br>
+      <div class="portfolio__grid">
+        <div class="portfolio__card">
+          <img src="assets/project-learnloomx.png" alt="LearnLoomX" />
+          <h4>LearnLoomX</h4>
+          <p>
+            A personalized learning platform powered by DeepSeekAI, enabling interactive course modules and real-time feedback for students.
+          </p>
+          <div class="tags">
+            <span>Django</span>
+            <span>AI</span>
+            <span>HTML/CSS</span>
+          </div>
+          <a href="https://github.com/Yogeshreddy07/Alliance_Techathon" class="btn">View Project</a>
+        </div>
+      
+        <div class="portfolio__card">
+          <img src="assets/project-taxi.png" alt="Taxi Data Analytics" />
+          <h4>Taxi Data Analytics</h4>
+          <p>
+            Real-time analytics on NYC taxi data using Apache Spark and Azure services. Created dashboards using Power BI to monitor trip patterns.
+          </p>
+          <div class="tags">
+            <span>Spark</span>
+            <span>Azure</span>
+            <span>Power BI</span>
+          </div>          
+          <a href="https://github.com/Yogeshreddy07/Taxi-Data-Analytics-Azure" class="btn">View Project</a>
+        </div>
+      
+        <div class="portfolio__card">
+          <img src="assets/project-voting.jpg" alt="Biometric Voting System" />
+          <h4>Biometric Voting System</h4>
+          <p>
+            Developed a secure facial recognition-based voting platform using OpenCV and SQLite for biometric authentication and vote integrity.
+          </p>
+          <div class="tags">
+            <span>Python</span>
+            <span>OpenCV</span>
+            <span>SQLite</span>
+          </div>
+          <a href="https://github.com/Yogeshreddy07/-biometric-voting-system" class="btn">View Project</a>
+        </div>
+      
+        <div class="portfolio__card">
+          <img src="assets/project-handwriting.png" alt="Handwriting Generator" />
+          <h4>Handwriting Generator</h4>
+          <p>
+            A Django-based tool that converts typed text into realistic handwriting across six custom styles. Ideal for automated assignments.
+          </p>
+          <div class="tags">
+            <span>Python</span>
+            <span>HTML/CSS/JS</span>
+            <span>Django</span>
+          </div>
+          <a href="https://github.com/Yogeshreddy07/Text-To-Handwriting" class="btn">View Project</a>
+        </div>
+      
+        <div class="portfolio__card">
+          <img src="assets/project-selfcar.jpg" alt="Self Driving Car Simulation" />
+          <h4>Self Driving Car Simulation</h4>
+          <p>
+            Prototype simulation of autonomous vehicles using JavaScript and neural networks. Real-time obstacle detection and pathfinding.
+          </p>
+          <div class="tags">
+            <span>Python</span>
+            <span>Neural Networks</span>
+            <span>HTML/CSS/JS</span>
+          </div>
+          <a href="https://github.com/Yogeshreddy07/Self-Driving-Car-Using-Arduino-Uno" class="btn">View Project</a>
+        </div>
+      
+        <div class="portfolio__card">
+          <img src="assets/project-community.png" alt="StockFocus Community" />
+          <h4>StockFocus Community</h4>
+          <p>
+            Built an engaging stock market learning platform with a discussion community, news feed, and LMS features using Django and CSS.
+          </p>
+          <div class="tags">
+            <span>Django</span>
+            <span>Python</span>
+            <span>HTML/CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <a href="https://github.com/Yogeshreddy07/stockfocus.in" class="btn">View Project</a>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="section__container contact__container" id="contact">
+      <div class="logo">Y</div>
+      <h2 class="section__header">Let's Talk With Me!</h2>
+      <p class="section__description">
+        Open to freelance, internship, or collaboration opportunities. Let’s build something amazing together.
+      </p>
+      <div class="contact__socials">
+        <a href="https://twitter.com"><i class="ri-twitter-fill"></i></a>
+        <a href="https://linkedin.com/in/yogeshreddy07"><i class="ri-linkedin-fill"></i></a>
+        <a href="https://github.com/Yogeshreddy07"><i class="ri-github-fill"></i></a>
+        <a href="mailto:yogeshreddys07@gmail.com"><i class="ri-mail-fill"></i></a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      Copyright © 2025 Yogesh Reddy. All rights reserved.
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
