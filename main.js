@@ -4,6 +4,7 @@ const menuBtnIcon = menuBtn.querySelector("i");
 
 menuBtn.addEventListener("click", (e) => {
   navLinks.classList.toggle("open");
+  navLinks.classList.toggle("active");
 
   const isOpen = navLinks.classList.contains("open");
   menuBtnIcon.setAttribute(
@@ -96,4 +97,24 @@ function typeEffect() {
 document.addEventListener("DOMContentLoaded", () => {
   typedRole.textContent = "";
   typeEffect();
+  adjustFontSize();
 });
+
+function adjustFontSize() {
+  const typedRoleElement = document.querySelector(".typed-role");
+  const screenWidth = window.innerWidth;
+
+  if (screenWidth < 768) {
+    // Reduce font size for smaller screens
+    typedRoleElement.style.fontSize = "1.4rem";
+  } else {
+    // Reset font size for larger screens
+    typedRoleElement.style.fontSize = "2.8rem";
+  }
+}
+
+// Adjust font size on window resize
+window.addEventListener("resize", adjustFontSize);
+
+// Initial adjustment
+adjustFontSize();
